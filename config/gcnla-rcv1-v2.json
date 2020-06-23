@@ -1,0 +1,108 @@
+{
+  "data": {
+    "dataset": "rcv1",
+    "data_dir": "data",
+    "train_file": "rcv1_train.json",
+    "val_file": "rcv1_val.json",
+    "test_file": "rcv1_test.json",
+    "prob_json": "rcv1_prob.json",
+    "hierarchy": "sample_rcv1.taxonomy"
+  },
+  "vocabulary": {
+    "dir": "vocab",
+    "vocab_dict": "word.dict",
+    "max_token_vocab": 60000,
+    "label_dict": "label.dict"
+  },
+  "embedding": {
+    "token": {
+      "dimension": 300,
+      "type": "pretrain",
+      "pretrained_file": "../glove.6B/glove.6B.300d.txt",
+      "dropout": 0.5,
+      "init_type": "uniform"
+    },
+    "label": {
+      "dimension": 300,
+      "type": "random",
+      "dropout": 0.5,
+      "init_type": "kaiming_uniform"
+    }
+  },
+  "text_encoder": {
+    "max_length": 256,
+    "RNN": {
+      "bidirectional": true,
+      "num_layers": 1,
+      "type": "GRU",
+      "hidden_dimension": 64,
+      "dropout": 0.1
+    },
+    "CNN": {
+      "kernel_size": [2, 3, 4],
+      "num_kernel": 100
+    },
+    "topK_max_pooling": 1
+  },
+  "structure_encoder": {
+    "type": "GCN",
+    "node": {
+      "type": "text",
+      "dimension": 300,
+      "dropout": 0.05
+    }
+  },
+  "model": {
+    "type": "HiAGM-LA",
+    "linear_transformation": {
+      "text_dimension": 300,
+      "node_dimension": 300,
+      "dropout": 0.5
+    },
+    "classifier": {
+      "num_layer": 1,
+      "dropout": 0.5
+    }
+  },
+  "train": {
+    "optimizer": {
+      "type": "Adam",
+      "learning_rate": 0.0001,
+      "lr_decay": 1.00,
+      "lr_patience": 5,
+      "early_stopping": 200
+    },
+    "batch_size": 64,
+    "start_epoch": 0,
+    "end_epoch": 200,
+    "loss": {
+      "classification": "BCEWithLogitsLoss",
+      "recursive_regularization": {
+        "flag": true,
+        "penalty": 0.000001
+      }
+    },
+    "device_setting": {
+      "device": "cuda",
+      "visible_device_list": "1",
+      "num_workers": 10
+    },
+    "checkpoint": {
+      "dir": "rcv1_hiagm_la_checkpoint",
+      "max_number": 10,
+      "save_best": ["Macro_F1", "Micro_F1"]
+    }
+  },
+  "eval": {
+    "batch_size": 512,
+    "threshold": 0.5
+  },
+   "test": {
+    "best_checkpoint": "best_micro_HiAGM-TP",
+    "batch_size": 512
+  },
+  "log": {
+    "level": "info",
+    "filename": "gcnla-rcv1-v2.log"
+  }
+}
