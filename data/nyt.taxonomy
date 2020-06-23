@@ -1,0 +1,52 @@
+Root	Top/Features	Top/Opinion	Top/Classifieds	Top/News
+Top/News	Top/News/Education	Top/News/Corrections	Top/News/Front Page	Top/News/Sports	Top/News/World	Top/News/Washington	Top/News/Health	Top/News/Obituaries	Top/News/Business	Top/News/U.S.	Top/News/Science	Top/News/Technology	Top/News/New York and Region
+Top/News/World	Top/News/World/Middle East	Top/News/World/Africa	Top/News/World/Asia Pacific	Top/News/World/Europe	Top/News/World/Countries and Territories	Top/News/World/Americas
+Top/News/World/Countries and Territories	Top/News/World/Countries and Territories/China	Top/News/World/Countries and Territories/Japan	Top/News/World/Countries and Territories/Russia	Top/News/World/Countries and Territories/Russia and the Former Soviet Union	Top/News/World/Countries and Territories/United Kingdom	Top/News/World/Countries and Territories/Israel	Top/News/World/Countries and Territories/United States	Top/News/World/Countries and Territories/Iraq	Top/News/World/Countries and Territories/Great Britain
+Top/Classifieds	Top/Classifieds/Real Estate	Top/Classifieds/Paid Death Notices	Top/Classifieds/Job Market
+Top/Classifieds/Job Market	Top/Classifieds/Job Market/Job Categories
+Top/Classifieds/Job Market/Job Categories	Top/Classifieds/Job Market/Job Categories/Legal	Top/Classifieds/Job Market/Job Categories/Media, Entertainment and Publishing	Top/Classifieds/Job Market/Job Categories/Education	Top/Classifieds/Job Market/Job Categories/Government, Philanthropy and NGO	Top/Classifieds/Job Market/Job Categories/Technology, Telecommunications and Internet	Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance	Top/Classifieds/Job Market/Job Categories/Marketing, Advertising and PR	Top/Classifieds/Job Market/Job Categories/Fashion, Beauty and Fitness	Top/Classifieds/Job Market/Job Categories/Hospitality, Restaurant and Travel	Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance	Top/Classifieds/Job Market/Job Categories/Law Enforcement and Security	Top/Classifieds/Job Market/Job Categories/Art and Design	Top/Classifieds/Job Market/Job Categories/Manufacturing, Operations and Logistics	Top/Classifieds/Job Market/Job Categories/Sales and Business Development	Top/Classifieds/Job Market/Job Categories/Healthcare
+Top/Features	Top/Features/Dining and Wine	Top/Features/Books	Top/Features/Travel	Top/Features/Style	Top/Features/Movies	Top/Features/Arts	Top/Features/Magazine	Top/Features/Week in Review	Top/Features/Home and Garden	Top/Features/Theater
+Top/Features/Travel	Top/Features/Travel/Guides	Top/Features/Travel/Sunday Travel
+Top/Features/Travel/Guides	Top/Features/Travel/Guides/Activities and Interests	Top/Features/Travel/Guides/Destinations
+Top/Features/Travel/Guides/Destinations	Top/Features/Travel/Guides/Destinations/Asia	Top/Features/Travel/Guides/Destinations/Africa	Top/Features/Travel/Guides/Destinations/Caribbean and Bermuda	Top/Features/Travel/Guides/Destinations/North America	Top/Features/Travel/Guides/Destinations/Europe	Top/Features/Travel/Guides/Destinations/Central and South America	Top/Features/Travel/Guides/Destinations/Middle East
+Top/Features/Travel/Guides/Destinations/Middle East	Top/Features/Travel/Guides/Destinations/Middle East/Iraq	Top/Features/Travel/Guides/Destinations/Middle East/Palestinian Authority	Top/Features/Travel/Guides/Destinations/Middle East/Israel	Top/Features/Travel/Guides/Destinations/Middle East/Iran
+Top/News/Business	Top/News/Business/Markets	Top/News/Business/Media and Advertising	Top/News/Business/Your Money	Top/News/Business/Small Business	Top/News/Business/Columns
+Top/News/Health	Top/News/Health/Diseases, Conditions, and Health Topics
+Top/News/Health/Diseases, Conditions, and Health Topics	Top/News/Health/Diseases, Conditions, and Health Topics/Medicine and Health
+Top/Features/Travel/Guides/Destinations/North America	Top/Features/Travel/Guides/Destinations/North America/Canada	Top/Features/Travel/Guides/Destinations/North America/United States
+Top/News/U.S.	Top/News/U.S./U.S. States, Territories and Possessions	Top/News/U.S./Midwest	Top/News/U.S./New England	Top/News/U.S./West	Top/News/U.S./South	Top/News/U.S./Mid-Atlantic	Top/News/U.S./Southwest
+Top/News/U.S./U.S. States, Territories and Possessions	Top/News/U.S./U.S. States, Territories and Possessions/Washington, D.C.	Top/News/U.S./U.S. States, Territories and Possessions/California	Top/News/U.S./U.S. States, Territories and Possessions/Connecticut	Top/News/U.S./U.S. States, Territories and Possessions/New York	Top/News/U.S./U.S. States, Territories and Possessions/New Jersey
+Top/Features/Travel/Guides/Destinations/North America/United States	Top/Features/Travel/Guides/Destinations/North America/United States/Florida	Top/Features/Travel/Guides/Destinations/North America/United States/Washington, D.C.	Top/Features/Travel/Guides/Destinations/North America/United States/Connecticut	Top/Features/Travel/Guides/Destinations/North America/United States/New York	Top/Features/Travel/Guides/Destinations/North America/United States/California	Top/Features/Travel/Guides/Destinations/North America/United States/New Jersey
+Top/Features/Travel/Guides/Destinations/North America/United States/New York	Top/Features/Travel/Guides/Destinations/North America/United States/New York/New York City	Top/Features/Travel/Guides/Destinations/North America/United States/New York/Long Island
+Top/News/Sports	Top/News/Sports/Hockey	Top/News/Sports/Columns	Top/News/Sports/Pro Football	Top/News/Sports/Baseball	Top/News/Sports/Pro Basketball
+Top/News/Sports/Pro Football	Top/News/Sports/Pro Football/National Football League
+Top/Features/Travel/Guides/Destinations/Europe	Top/Features/Travel/Guides/Destinations/Europe/Britain	Top/Features/Travel/Guides/Destinations/Europe/Russia	Top/Features/Travel/Guides/Destinations/Europe/France	Top/Features/Travel/Guides/Destinations/Europe/Germany
+Top/Opinion	Top/Opinion/Opinion
+Top/News/New York and Region	Top/News/New York and Region/Columns	Top/News/New York and Region/Westchester	Top/News/New York and Region/New Jersey	Top/News/New York and Region/The City	Top/News/New York and Region/Connecticut	Top/News/New York and Region/Long Island
+Top/Features/Style	Top/Features/Style/Fashion and Style
+Top/Features/Style/Fashion and Style	Top/Features/Style/Fashion and Style/Weddings and Celebrations
+Top/News/Washington	Top/News/Washington/Campaign 2004	Top/News/Washington/Campaign 2008
+Top/News/Washington/Campaign 2004	Top/News/Washington/Campaign 2004/States	Top/News/Washington/Campaign 2004/Candidates
+Top/Features/Travel/Guides/Activities and Interests	Top/Features/Travel/Guides/Activities and Interests/Family	Top/Features/Travel/Guides/Activities and Interests/Road Trips	Top/Features/Travel/Guides/Activities and Interests/Music	Top/Features/Travel/Guides/Activities and Interests/Food and Wine	Top/Features/Travel/Guides/Activities and Interests/Art	Top/Features/Travel/Guides/Activities and Interests/Shopping
+Top/Classifieds/Real Estate	Top/Classifieds/Real Estate/Locations
+Top/Classifieds/Real Estate/Locations	Top/Classifieds/Real Estate/Locations/New York
+Top/Features/Travel/Guides/Destinations/Asia	Top/Features/Travel/Guides/Destinations/Asia/China	Top/Features/Travel/Guides/Destinations/Asia/Japan
+Top/Features/Arts	Top/Features/Arts/Music	Top/Features/Arts/Art and Design	Top/Features/Arts/Dance
+Top/Features/Arts/Music	Top/Features/Arts/Music/Reviews
+Top/Features/Movies	Top/Features/Movies/Reviews	Top/Features/Movies/News and Features
+Top/Opinion/Opinion	Top/Opinion/Opinion/Editorials	Top/Opinion/Opinion/Op-Ed	Top/Opinion/Opinion/Letters
+Top/Features/Arts/Art and Design	Top/Features/Arts/Art and Design/Reviews
+Top/Features/Arts/Dance	Top/Features/Arts/Dance/Reviews
+Top/Classifieds/Real Estate/Locations/New York	Top/Classifieds/Real Estate/Locations/New York/New York City
+Top/News/Sports/Baseball	Top/News/Sports/Baseball/Major League
+Top/News/Sports/Baseball/Major League	Top/News/Sports/Baseball/Major League/New York Yankees	Top/News/Sports/Baseball/Major League/New York Mets
+Top/Features/Theater	Top/Features/Theater/Plays	Top/Features/Theater/Reviews	Top/Features/Theater/News and Features
+Top/News/Sports/Hockey	Top/News/Sports/Hockey/National Hockey League
+Top/News/Sports/Pro Basketball	Top/News/Sports/Pro Basketball/National Basketball Association
+Top/News/Science	Top/News/Science/Environment
+Top/Features/Books	Top/Features/Books/Book Reviews
+Top/Opinion/Opinion/Op-Ed	Top/Opinion/Opinion/Op-Ed/Contributors	Top/Opinion/Opinion/Op-Ed/Columnists
+Top/News/Washington/Campaign 2008	Top/News/Washington/Campaign 2008/Candidates
+Top/News/Business/Columns	Top/News/Business/Columns/Addenda
+Top/News/Technology	Top/News/Technology/Circuits
+Top/News/Washington/Campaign 2004/Candidates	Top/News/Washington/Campaign 2004/Candidates/George W Bush
