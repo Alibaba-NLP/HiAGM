@@ -1,6 +1,6 @@
 # HiAGM: Hierarchy-Aware Global Model for Hierarchical Text Classification
 This repository implements the hierarchy-aware structure encoders for mutual interaction between label space and text features. 
-This work has been accepted by ACL 2020. The dataset split of NYTimes (New York Times) and WoS (Web of Science) are proposed in this repository.
+This work has been accepted as the long paper '[Hierarchy-Aware Global Model for Hierarchical Text Classification](https://www.aclweb.org/anthology/2020.acl-main.104/)' in ACL 2020. The dataset splits of NYTimes (New York Times) and WoS (Web of Science) are proposed in this repository.
 
 
 ### Hierarchy-Aware Global Model
