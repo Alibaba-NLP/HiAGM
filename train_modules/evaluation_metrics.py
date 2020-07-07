@@ -94,7 +94,7 @@ def evaluate(epoch_predicts, epoch_labels, vocab, threshold=0.5, top_k=None):
     # Macro-F1
     precision_macro = sum([v for _, v in precision_dict.items()]) / len(list(precision_dict.keys()))
     recall_macro = sum([v for _, v in recall_dict.items()]) / len(list(precision_dict.keys()))
-    macro_f1 = 2 * precision_macro * recall_macro / (precision_macro + recall_macro) if (precision_macro + recall_macro) > 0 else 0.0
+    macro_f1 = sum([v for _, v in fscore_dict.items()]) / len(list(fscore_dict.keys()))
     # Micro-F1
     precision_micro = float(right_total) / predict_total if predict_total > 0 else 0.0
     recall_micro = float(right_total) / gold_total
