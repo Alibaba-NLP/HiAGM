@@ -36,7 +36,7 @@ class HiAGMLA(nn.Module):
         self.graph_model = graph_model
 
         # classifier
-        self.linear = nn.Linear(len(self.label_map) * config.embedding.label.dimension // 5,
+        self.linear = nn.Linear(len(self.label_map) * config.embedding.label.dimension,
                                 len(self.label_map))
 
         # dropout
